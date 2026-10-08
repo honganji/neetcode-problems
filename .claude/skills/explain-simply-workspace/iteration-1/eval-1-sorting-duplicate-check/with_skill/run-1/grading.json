@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Technical jargon is either avoided or only introduced after a plain-language metaphor",
+      "passed": true,
+      "evidence": "No bare technical term like 'sort' is ever dropped in without context — '並べ替え' is described entirely through the lined-up-children-by-height metaphor."
+    },
+    {
+      "text": "Uses a metaphor suited to 'sort then compare neighbors', distinct in kind from a hash-set/checklist metaphor",
+      "passed": true,
+      "evidence": "Cards sorted small-to-large, likened to children lining up by height — clearly a different shape of metaphor from the sticker-album/box metaphors used for the hashset version."
+    },
+    {
+      "text": "Walks through the actual code mapped back to the metaphor",
+      "passed": true,
+      "evidence": "Each line (sorted(), the for-loop, the adjacent comparison, return True/False) is mapped to the card-lineup story."
+    },
+    {
+      "text": "Overall tone reads as elementary-school-friendly",
+      "passed": true,
+      "evidence": "Casual, story-first tone, though it used the skill template's English section headers ('The big idea', 'How the code does that', 'Why it's clever') verbatim instead of translating them to Japanese like the other with-skill run did — a minor inconsistency."
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  }
+}

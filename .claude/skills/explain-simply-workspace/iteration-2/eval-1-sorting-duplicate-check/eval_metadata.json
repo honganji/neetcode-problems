@@ -1,0 +1,12 @@
+{
+  "eval_id": 1,
+  "eval_name": "sorting-duplicate-check",
+  "prompt": "arrays_and_hashing/contains_duplicate/Python/2_sorting.py のコードをexplain like I'm five でお願いします",
+  "assertions": [
+    {"text": "Output is entirely in English", "passed": null, "evidence": ""},
+    {"text": "Uses real programming vocabulary directly (sort, index, loop, O(n log n), etc.) rather than avoiding it, defining each term on first use", "passed": null, "evidence": ""},
+    {"text": "Explains the actual code (sorting step, neighbor-comparison loop, return values) with reasoning about why it's written that way", "passed": null, "evidence": ""},
+    {"text": "Ends with a 'one thing worth remembering' style tip that is a general, transferable development habit/heuristic, not specific to this contains-duplicate problem", "passed": null, "evidence": ""},
+    {"text": "Tone reads as high-school/early-learner level, not baby talk and not expert-only jargon", "passed": null, "evidence": ""}
+  ]
+}

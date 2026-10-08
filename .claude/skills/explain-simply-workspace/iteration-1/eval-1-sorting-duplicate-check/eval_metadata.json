@@ -1,0 +1,11 @@
+{
+  "eval_id": 1,
+  "eval_name": "sorting-duplicate-check",
+  "prompt": "arrays_and_hashing/contains_duplicate/Python/2_sorting.py のコードをexplain like I'm five でお願いします",
+  "assertions": [
+    {"text": "Technical jargon (sort, iteration, index, O(n log n), etc.) is either avoided or only introduced AFTER a plain-language metaphor has already been given", "passed": null, "evidence": ""},
+    {"text": "Uses a metaphor suited to 'sort then compare neighbors' specifically (e.g. lining things up in order), distinct in kind from a hash-set/checklist metaphor", "passed": null, "evidence": ""},
+    {"text": "Walks through the actual code (sorting step, the neighbor-comparison loop, the return values) mapped back to the metaphor", "passed": null, "evidence": ""},
+    {"text": "Overall tone reads as something an elementary-school child could follow, not a simplified-but-still-technical explanation", "passed": null, "evidence": ""}
+  ]
+}

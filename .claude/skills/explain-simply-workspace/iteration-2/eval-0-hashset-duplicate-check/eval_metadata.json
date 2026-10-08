@@ -1,0 +1,12 @@
+{
+  "eval_id": 0,
+  "eval_name": "hashset-duplicate-check",
+  "prompt": "arrays_and_hashing/contains_duplicate/Swift/1_hashset.swift のコードを小学生にもわかるようにやさしく説明して",
+  "assertions": [
+    {"text": "Output is entirely in English, regardless of the Japanese request", "passed": null, "evidence": ""},
+    {"text": "Uses real programming vocabulary directly (array, Set, O(n), boolean, etc.) rather than avoiding it, defining each term on first use", "passed": null, "evidence": ""},
+    {"text": "Explains the actual code (the loop, insert-and-check, return values) with reasoning about why it's written that way, not just restating syntax", "passed": null, "evidence": ""},
+    {"text": "Ends with a 'one thing worth remembering' style tip that is a general, transferable development habit/heuristic, not specific to this contains-duplicate problem", "passed": null, "evidence": ""},
+    {"text": "Tone reads as high-school/early-learner level (TA-in-office-hours), not baby talk and not expert-only jargon", "passed": null, "evidence": ""}
+  ]
+}

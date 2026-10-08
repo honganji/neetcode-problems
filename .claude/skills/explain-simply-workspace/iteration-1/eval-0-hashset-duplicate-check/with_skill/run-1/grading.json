@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Technical jargon (hash set, O(n), boolean, iteration, etc.) is either avoided or only introduced AFTER a plain-language metaphor has already been given",
+      "passed": true,
+      "evidence": "「ハッシュセット（hash set）」is named only in the final paragraph, after the full sticker-album story and code walkthrough."
+    },
+    {
+      "text": "Uses a concrete everyday metaphor a child would recognize",
+      "passed": true,
+      "evidence": "Sticker collecting / sticker album (シール帳), a concrete object a child has handled."
+    },
+    {
+      "text": "Walks through the actual code mapped back to the metaphor",
+      "passed": true,
+      "evidence": "Each line (Set init, for-loop, insert-and-check, return true/false) is mapped step by step to the sticker-album story."
+    },
+    {
+      "text": "Overall tone reads as elementary-school-friendly, not simplified-but-still-technical",
+      "passed": true,
+      "evidence": "Playful, casual register (君, だよ), no leftover technical phrasing until the very end."
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  }
+}

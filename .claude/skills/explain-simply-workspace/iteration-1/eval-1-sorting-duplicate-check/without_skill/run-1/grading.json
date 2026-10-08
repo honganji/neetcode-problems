@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Technical jargon is either avoided or only introduced after a plain-language metaphor",
+      "passed": true,
+      "evidence": "'ソート' is named only once, parenthetically, inside the final summary line — after the card-lineup metaphor and full walkthrough."
+    },
+    {
+      "text": "Uses a metaphor suited to 'sort then compare neighbors', distinct from a hash-set/checklist metaphor",
+      "passed": true,
+      "evidence": "Toy cards sorted by size, plus a closing comparison to arranging stuffed animals by color/size to spot a duplicate bear — distinct and well-suited to the algorithm."
+    },
+    {
+      "text": "Walks through the actual code mapped back to the metaphor",
+      "passed": true,
+      "evidence": "Numbered steps 1-3 each show a code snippet immediately followed by its metaphor explanation."
+    },
+    {
+      "text": "Overall tone reads as elementary-school-friendly",
+      "passed": true,
+      "evidence": "Opens with 'もちろん！5歳児向けに...' and stays playful and concrete throughout ('お片付けタイム', 'クマさんのぬいぐるみ')."
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "eval_id": 0,
+  "eval_name": "hashset-duplicate-check",
+  "prompt": "arrays_and_hashing/contains_duplicate/Swift/1_hashset.swift のコードを小学生にもわかるようにやさしく説明して",
+  "assertions": [
+    {"text": "Technical jargon (hash set, O(n), boolean, iteration, etc.) is either avoided or only introduced AFTER a plain-language metaphor has already been given", "passed": null, "evidence": ""},
+    {"text": "Uses a concrete everyday metaphor a child would recognize (not an abstract 'box' with no texture) to represent checking for duplicates", "passed": null, "evidence": ""},
+    {"text": "Walks through the actual code (the loop, the insert-and-check, the return values) mapped back to the metaphor, not just a generic restatement", "passed": null, "evidence": ""},
+    {"text": "Overall tone reads as something an elementary-school child could follow, not a simplified-but-still-technical explanation", "passed": null, "evidence": ""}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "summary": {"pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5},
+  "expectations": [
+    {"text": "Output is entirely in English", "passed": true, "evidence": "The whole response is in English."},
+    {"text": "Uses real programming vocabulary directly, defining each term on first use", "passed": true, "evidence": "'sorted()', 'index', 'O(n log n)', 'O(n)', 'O(n²)' all used directly, each defined in context when first introduced."},
+    {"text": "Explains the actual code with reasoning about why it's written that way", "passed": true, "evidence": "Explains why starting the loop at index 1 is necessary, and why sorting first turns the problem into a neighbor-comparison."},
+    {"text": "Ends with a general, transferable 'one thing worth remembering' tip, not specific to this problem", "passed": true, "evidence": "Closing tip: account for the Big-O cost of library/built-in calls like sorted(), not just your own loops — a transferable code-reasoning habit."},
+    {"text": "Tone reads as high-school/early-learner level, not baby talk and not expert-only jargon", "passed": true, "evidence": "Direct and clear throughout, no childish framing."}
+  ]
+}

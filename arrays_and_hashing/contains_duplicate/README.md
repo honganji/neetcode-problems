@@ -9,3 +9,5 @@ Given an array of integers, determine whether any value appears more than once.
 - [Dart](Dart/README.md)
 - [Python](Python/README.md)
 - [Go](Go/README.md)
+- [Swift](Swift/README.md)
+- [Kotlin](Kotlin/README.md)

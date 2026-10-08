@@ -23,6 +23,16 @@ PROBLEM_NAME/
     2_<technique>.py
     3_<technique>.py
     README.md
+  Swift/
+    1_<technique>.swift
+    2_<technique>.swift
+    3_<technique>.swift
+    README.md
+  Kotlin/
+    1_<technique>.kt
+    2_<technique>.kt
+    3_<technique>.kt
+    README.md
   learning/
     <topic-slug>.md   # detailed explanations given about this problem, on request
 ```
@@ -40,7 +50,7 @@ separate per-solution `.md` files.
 
 ## Languages
 
-- **Default: Dart and Python.** Generate both unless told otherwise.
+- **Default: Dart, Python, Swift, and Kotlin.** Generate all four unless told otherwise.
 - If the user names a specific language in their request, **add** it to the default
   set rather than replacing it — e.g. asking for "also do it in Go" produces Dart,
   Python, and Go, not Go alone. Only skip a default language if the user explicitly
@@ -154,6 +164,8 @@ Solutions ordered from most to least efficient.
 
 - [Dart](Dart/README.md)
 - [Python](Python/README.md)
+- [Swift](Swift/README.md)
+- [Kotlin](Kotlin/README.md)
 ```
 
 ## Common Mistakes
@@ -165,8 +177,8 @@ Solutions ordered from most to least efficient.
   techniques.
 - Writing dense/academic explanations — keep them short and simple, as if explaining
   to someone learning the pattern for the first time.
-- Replacing the user's requested language instead of adding to the Dart+Python
-  default.
+- Replacing the user's requested language instead of adding to the
+  Dart+Python+Swift+Kotlin default.
 - Leaving a problem folder in the old flat-file layout instead of migrating it when
   touched.
 - Answering a detailed explanation request in chat only and forgetting to save it

@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Technical jargon (hash set, O(n), boolean, iteration, etc.) is either avoided or only introduced AFTER a plain-language metaphor has already been given",
+      "passed": true,
+      "evidence": "The word 'Set' appears only in the closing summary line '「箱」(Setという仕組み)', after the walkthrough — but it's a bare parenthetical aside rather than woven into the metaphor."
+    },
+    {
+      "text": "Uses a concrete everyday metaphor a child would recognize",
+      "passed": true,
+      "evidence": "Classroom attendance-number checking with a 'confirmed box' — relatable but slightly more abstract/institutional than a toy or game."
+    },
+    {
+      "text": "Walks through the actual code mapped back to the metaphor",
+      "passed": true,
+      "evidence": "Each code snippet is shown with an explanation mapped to the box/attendance-check story."
+    },
+    {
+      "text": "Overall tone reads as elementary-school-friendly, not simplified-but-still-technical",
+      "passed": true,
+      "evidence": "Friendly and clear, though more 'textbook tutorial' in structure (bullet summary, '〜ですよ' register) than a true story — slightly less playful than the with-skill version."
+    }
+  ],
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "summary": {"pass_rate": 0.2, "passed": 1, "failed": 4, "total": 5},
+  "expectations": [
+    {"text": "Output is entirely in English", "passed": false, "evidence": "Response body is in Japanese; only the section headers ('The big idea', 'How the code does that', 'Why it's clever') are in English, an inconsistency noted in iteration 1."},
+    {"text": "Uses real programming vocabulary directly, defining each term on first use", "passed": false, "evidence": "Terms like O(n log n)/O(n)/O(n²) are introduced only in the closing paragraph, explicitly flagged as '専門用語で言うと' (\"in technical terms\"), after the metaphor has already done the explaining — the old skill's jargon-last design."},
+    {"text": "Explains the actual code with reasoning about why it's written that way", "passed": true, "evidence": "Clear walkthrough of sorted(), the range(1, ...) start index, the neighbor comparison, and both return paths."},
+    {"text": "Ends with a general, transferable 'one thing worth remembering' tip, not specific to this problem", "passed": false, "evidence": "Ends with 'Why it's clever', which is about this specific sort-vs-hashset trade-off, not a separate general takeaway."},
+    {"text": "Tone reads as high-school/early-learner level, not baby talk and not expert-only jargon", "passed": false, "evidence": "Still framed around a child-level card/toy metaphor rather than speaking to the reader at a TA-office-hours register."}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "skill_name": "explain-simply",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "arrays_and_hashing/contains_duplicate/Swift/1_hashset.swift のコードを小学生にもわかるようにやさしく説明して",
+      "expected_output": "Set/hash setという言葉を使う前に、身近なたとえ話（例: シールを見たことがあるか確認する、など）で重複チェックの仕組みを説明し、その後コードの各行をたとえ話に対応づけて説明する。専門用語は最後に軽く触れる程度。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "arrays_and_hashing/contains_duplicate/Python/2_sorting.py のコードをexplain like I'm five でお願いします",
+      "expected_output": "ソートしてから隣同士を比べるというアプローチを、身近な場面（例: 身長順に並んでお隣さんと同じ高さか確認する、など）で説明し、ハッシュセット版とは違うたとえ話を使う。コードの各行をたとえ話に対応づける。",
+      "files": []
+    }
+  ]
+}
